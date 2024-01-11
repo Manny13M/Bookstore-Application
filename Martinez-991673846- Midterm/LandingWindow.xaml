@@ -1,0 +1,16 @@
+﻿<Window x:Class="Martinez_991673846__Midterm.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Martinez_991673846__Midterm"
+        mc:Ignorable="d"
+        Title="Manuel's Bookstore" Height="450" Width="800">
+
+    <Canvas>
+        <Label Content="Manuel Martinez Bookstore Info. System Developed by" Canvas.Left="242" Canvas.Top="117"/>
+        <Label Content="Manuel Martinez" Canvas.Left="342" Canvas.Top="166"/>
+        <Button x:Name="btnLogin" Click="btnLogin_Click" Content="Go To Bookstore" Canvas.Left="252" Canvas.Top="240" Height="40" Width="110" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Button x:Name="btnCancel" Click="btnCancel_Click" Content="Quit" Canvas.Left="403" Canvas.Top="240" HorizontalAlignment="Center" VerticalAlignment="Top" Height="40" Width="110"/>
+    </Canvas>
+</Window>

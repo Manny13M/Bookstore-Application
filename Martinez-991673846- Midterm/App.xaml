@@ -1,0 +1,9 @@
+﻿<Application x:Class="Martinez_991673846__Midterm.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Martinez_991673846__Midterm"
+             StartupUri="LandingWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
